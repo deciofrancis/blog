@@ -1,2 +1,2 @@
-# blog
-Criação do blog para um curso.
+# blog Mestre Financeiro
+Criação do blog Mestre Financeiro.
