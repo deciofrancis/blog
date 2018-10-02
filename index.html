@@ -25,6 +25,7 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 
 </head>
@@ -33,17 +34,33 @@
 	<!-- Header -->
 	<header class="header-section">
 		<div class="logo">
-			<img src="img/logo.png" alt="">
+			<a href="home.html"><img src="img/logo.png" alt=""></a>
 		</div>
+		<!-- Navigation -->
+		<div class="responsive"><i class="fa fa-bars"></i></div>
+		<nav>
+			<ul class="menu-list">
+				<li class="active"><a href="home.html">Home</a></li>
+				<li><a href="quem-somos.html">Quem Somos</a></li>
+				<li><a href="novidades.html">Novidades</a></li>
+				<li><a href="ebooks.html">Ebooks</a></li>
+			</ul>
+		</nav>		
 	</header>
 	<!-- Header end -->
 
 
 	<!-- Page header -->
 	<div class="page-top-section">
-		<div class="container text-right">
-			<div class="page-info">
-				<h2>Blog</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-7 page-info">
+					<h2>Nós estamos com você!</h2>
+				</div>
+				<div class="col-md-4 col-sm-5 form-info">
+					<p>Descubra como consegui as menores taxas para seu emprestimo.</p>
+					<button type="submit" class="btn btn-success btn-lg">Eu quero</button>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -138,6 +155,10 @@
 	</footer>
 	<!-- Footer end -->
 
+	<!-- Javascripts & Jquery -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>
