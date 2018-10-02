@@ -1,10 +1,6 @@
 'use strict';
 
 
-
-/*------------------
-	Navigation
---------------------*/
 function responsive() {
 	// Responsive 
 	$('.responsive').on('click', function(event) {
