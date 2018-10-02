@@ -1,11 +1,11 @@
 // Initialize Firebase (ADD YOUR OWN DATA)
 var config = {
-    apiKey: "AIzaSyDiyDV48CxVhbd-7DrAd_EMqAfPD7B3wnI",
-    authDomain: "form-427e5.firebaseapp.com",
-    databaseURL: "https://form-427e5.firebaseio.com",
-    projectId: "form-427e5",
-    storageBucket: "form-427e5.appspot.com",
-    messagingSenderId: "1029111686062"
+    apiKey: "AIzaSyCutBMcdNFvN7KzMagyT3ai5lC6w0VRf30",
+    authDomain: "form-mestre.firebaseapp.com",
+    databaseURL: "https://form-mestre.firebaseio.com",
+    projectId: "form-mestre",
+    storageBucket: "form-mestre.appspot.com",
+    messagingSenderId: "1090246239993"
   };
   firebase.initializeApp(config);
 
