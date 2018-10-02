@@ -574,4 +574,14 @@ ul {
 	.buttons button {
 		margin-bottom: 20px;
 	}
+
+	.form-info{
+		padding-top: 20px;
+		margin-top: 75px;
+		background: #007bff;
+	}
+
+	.spad{
+		margin-top: 150px;
+	}
 }
