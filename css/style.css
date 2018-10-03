@@ -226,13 +226,20 @@ ul {
 }
 .page-top-section {
 	position: relative;
-	height: 300px;
+	height: 360px;
 	background-image: url("../img/background.png");
 }
 
 .page-top-section .container {
 	position: relative;
 	z-index: 5;
+}
+
+
+.form p:first-child {
+	color: #1f397f;
+	padding: 0;
+	font-size: 18px;
 }
 
 .form-info{
@@ -255,7 +262,7 @@ ul {
 
 .page-top-section .page-info {
 	display: inline-block;
-	padding-top: 160px;
+	padding-top: 100px;
 }
 
 .page-top-section .page-info h2 {
@@ -315,6 +322,25 @@ ul {
 	font-size: 48px;
 	color: #fff;
 	font-weight: 400;
+}
+
+.page-info p {
+	text-align: center;
+	padding: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+}
+
+.page-info p:first-child {
+	padding: 20px 0 0 0;
+	font-size: 20px;
+}
+
+.page-info p:nth-child(2) {
+	font-size: 30px;
 }
 
 .newsletter-section p {
