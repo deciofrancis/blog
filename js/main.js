@@ -117,6 +117,7 @@ getIp(function(ip) {
       email: email,
       name: name,
       ip: ip,
+      tipo:"B2C",
       time:time
     });
   }
