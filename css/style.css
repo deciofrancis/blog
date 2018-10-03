@@ -175,6 +175,11 @@ ul {
 	display: inline;
 }
 
+.menu-list img {
+	width: 20px;
+	height: 20px;
+}
+
 .header-section .menu-list li a {
 	display: inline-block;
 	padding: 35px 15px;
@@ -293,6 +298,11 @@ ul {
 	padding-top: 100px;
 }
 
+.page-section{
+	padding: 20px;
+	background-color: #fff;
+}
+
 .newsletter-section {
 	background: #000099;
 }
@@ -318,7 +328,7 @@ ul {
 .post-thumbnail {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 .post-thumbnail .post-date {
@@ -354,7 +364,7 @@ ul {
 }
 
 .post-meta {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .post-meta a {
@@ -481,7 +491,7 @@ ul {
 }
 
 .single-post .post-content p {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .single-post .author {
@@ -506,6 +516,11 @@ ul {
 
 .single-post .author .author-info h2 span {
 	color: #8e8f9b;
+}
+
+.img-align-right{
+	float: right;
+	padding: 10px;
 }
 
 .wrapper {
