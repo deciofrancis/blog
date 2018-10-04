@@ -230,6 +230,10 @@ ul {
 	background-image: url("../img/background.png");
 }
 
+.page-top-section.ebook {
+	height: 160px;
+}
+
 .page-top-section .container {
 	position: relative;
 	z-index: 5;
@@ -383,6 +387,10 @@ ul {
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 20px;
+}
+
+.post-thumbnail.ebook {
+	margin-bottom: 0;
 }
 
 .post-thumbnail .post-date {
@@ -541,11 +549,15 @@ ul {
 
 
 .single-post .post-content {
-	margin-bottom: 90px;
+	margin-bottom: 30px;
 }
 
 .single-post .post-content p {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+.post-content.ebook p {
+	font-size: 18px;
 }
 
 .single-post .author {
@@ -849,7 +861,7 @@ h1.heading {
 	}
 	.page-pagination,
 	.blog-posts {
-		margin-bottom: 30px;
+		margin-bottom: 0;
 	}
 	.buttons button {
 		margin-bottom: 20px;
