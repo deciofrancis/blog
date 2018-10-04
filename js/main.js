@@ -66,6 +66,8 @@ getIp(function(ip) {
   // Listen for form submit
   document.getElementById("contactForm").addEventListener("submit", submitForm);
 
+  var ebook = "http://mestrefinanceiro.com.br/e-book-guia-emprestimo-pessoal.pdf";
+
   // Submit form
   function submitForm(e) {
     e.preventDefault();
@@ -103,6 +105,7 @@ getIp(function(ip) {
 
     // Clear form
     document.getElementById("contactForm").reset();
+    window.open(ebook,'Download');
   }
 
   // Function to get get form values
